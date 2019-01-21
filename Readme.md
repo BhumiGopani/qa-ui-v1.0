@@ -18,13 +18,13 @@ mvn test
 
 ## Execution results
 #Index.html
-1. Navigate to your project directory XX/qa-test-hf/test-output/index.html and open the html page
+1. Navigate to your project directory XX/qa-test-finreach/test-output/index.html and open the html page
 #emailable-report
-1. Navigate to your project directory XX/qa-test-hf/test-output/emailable-report.html and open the html page
+1. Navigate to your project directory XX/qa-test-finreach/test-output/emailable-report.html and open the html page
 
 ## logging framework - log4j used
 
-## Configurable properties files - location XX/qa-test-hf/config.properties
+## Configurable properties files - location XX/qa-test-finreach/config.properties
 1. It has components for driver to use during UI test cases, url and screenshot folder.
 
 ## Browser option (Browser factory)- Chrome and Firefox
@@ -36,7 +36,7 @@ mvn test
 3. Please do cosider perfomance of web site before configuring this value.
 
 ##Listeners used - ITestListener & ITestResult
-1. Its configurable from location - XX\qa-test-hf\src\test\java\com\hellofresh\tests\WebTest.java
+1. Its configurable from location - XX\qa-test-finreach\src\com\finreach\tests\WebTest.java
 2. By Default - ITestListener
 
 ##Libraries
