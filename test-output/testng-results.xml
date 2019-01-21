@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81364" started-at="2019-01-21T18:09:55Z" finished-at="2019-01-21T18:11:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81364" started-at="2019-01-21T18:09:55Z" finished-at="2019-01-21T18:11:16Z">
+      <class name="com.finreach.tests.WebTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="setUp" is-config="true" duration-ms="10198" started-at="2019-01-21T23:39:55Z" finished-at="2019-01-21T23:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginInTest()[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="loginInTest" duration-ms="1000" started-at="2019-01-21T23:40:05Z" description="positive login scenario with valid the creds" finished-at="2019-01-21T23:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInTest -->
+        <test-method status="PASS" signature="closeDown(org.testng.ITestResult)[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="closeDown" is-config="true" duration-ms="91" started-at="2019-01-21T23:40:06Z" finished-at="2019-01-21T23:40:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginInTest status=SUCCESS method=WebTests.loginInTest()[pri:0, instance:com.finreach.tests.WebTests@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="setUp" is-config="true" duration-ms="12465" started-at="2019-01-21T23:40:06Z" finished-at="2019-01-21T23:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="nologinInTest()[pri:1, instance:com.finreach.tests.WebTests@53b32d7]" name="nologinInTest" duration-ms="1446" started-at="2019-01-21T23:40:18Z" description="negative login scenario with invalid the creds" finished-at="2019-01-21T23:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nologinInTest -->
+        <test-method status="PASS" signature="closeDown(org.testng.ITestResult)[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="closeDown" is-config="true" duration-ms="91" started-at="2019-01-21T23:40:20Z" finished-at="2019-01-21T23:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nologinInTest status=SUCCESS method=WebTests.nologinInTest()[pri:1, instance:com.finreach.tests.WebTests@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="setUp" is-config="true" duration-ms="10608" started-at="2019-01-21T23:40:20Z" finished-at="2019-01-21T23:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createTest()[pri:2, instance:com.finreach.tests.WebTests@53b32d7]" name="createTest" duration-ms="4055" started-at="2019-01-21T23:40:31Z" description="create employee data scenario" finished-at="2019-01-21T23:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method status="PASS" signature="closeDown(org.testng.ITestResult)[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="closeDown" is-config="true" duration-ms="88" started-at="2019-01-21T23:40:35Z" finished-at="2019-01-21T23:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTest status=SUCCESS method=WebTests.createTest()[pri:2, instance:com.finreach.tests.WebTests@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="setUp" is-config="true" duration-ms="10562" started-at="2019-01-21T23:40:35Z" finished-at="2019-01-21T23:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createandcancelTest()[pri:3, instance:com.finreach.tests.WebTests@53b32d7]" name="createandcancelTest" duration-ms="4541" started-at="2019-01-21T23:40:45Z" description="After create - cancel button scenario" finished-at="2019-01-21T23:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createandcancelTest -->
+        <test-method status="PASS" signature="closeDown(org.testng.ITestResult)[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="closeDown" is-config="true" duration-ms="118" started-at="2019-01-21T23:40:50Z" finished-at="2019-01-21T23:40:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createandcancelTest status=SUCCESS method=WebTests.createandcancelTest()[pri:3, instance:com.finreach.tests.WebTests@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="setUp" is-config="true" duration-ms="11505" started-at="2019-01-21T23:40:50Z" finished-at="2019-01-21T23:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="editTest()[pri:4, instance:com.finreach.tests.WebTests@53b32d7]" name="editTest" duration-ms="14475" started-at="2019-01-21T23:41:02Z" description="edit employee data scenario" finished-at="2019-01-21T23:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editTest -->
+        <test-method status="PASS" signature="closeDown(org.testng.ITestResult)[pri:0, instance:com.finreach.tests.WebTests@53b32d7]" name="closeDown" is-config="true" duration-ms="99" started-at="2019-01-21T23:41:16Z" finished-at="2019-01-21T23:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editTest status=SUCCESS method=WebTests.editTest()[pri:4, instance:com.finreach.tests.WebTests@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- com.finreach.tests.WebTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
